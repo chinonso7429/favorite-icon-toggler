@@ -1,0 +1,10 @@
+
+
+.filled{background-color: #e0f7fa; /* Light cyan background */
+  border: 1px solid #26c6da; /* Cyan border */
+  color: #006064; /* Dark cyan text */
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+

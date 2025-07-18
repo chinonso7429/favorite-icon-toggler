@@ -1,4 +1,4 @@
-** start of index.html **
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -24,32 +24,7 @@
   </body>
 </html>
 
-** end of index.html **
 
-** start of styles.css **
 
-.filled{background-color: #e0f7fa; /* Light cyan background */
-  border: 1px solid #26c6da; /* Cyan border */
-  color: #006064; /* Dark cyan text */
-  font-weight: 500;
-  transition: all 0.3s ease;
-}
 
-** end of styles.css **
-
-** start of script.js **
-
-document.querySelectorAll('.favorite-icon').forEach(button => {
-  button.addEventListener('click', function () {
-    if (this.classList.contains('filled')) {
-      this.classList.remove('filled');
-      this.innerHTML = '&#9825;';
-    } else {
-      this.classList.add('filled');
-      this.innerHTML = '&#10084;';
-    }
-  });
-});
-
-** end of script.js **
 
